@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  mockserver:
+    image: mockserver/mockserver:5.15.0
+    container_name: mockserver
+    environment:
+      MOCKSERVER_INITIALIZATION_JSON_PATH: /expectations.json
+      MOCKSERVER_SERVER_PORT: ${MOCK_SERVER_PORT}
+    ports:
+      - "${MOCK_SERVER_PORT}:${MOCK_SERVER_PORT}"
+    volumes:
+      - ./docker/mockserver/expectations.json:/expectations.json:ro
