@@ -8,4 +8,4 @@ make run-infrastructure
 
 ## Links
 
-MockServer website: <https://www.mock-server.com>.
+MockServer UI : <http://localhost:2020/mockserver/dashboard>.
