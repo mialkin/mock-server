@@ -20,3 +20,5 @@ curl --location 'http://localhost:2020/api/users/get' \
     "service": "your_service"
 }'
 ```
+
+[↑ JSON examples](https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json_examples.md).
