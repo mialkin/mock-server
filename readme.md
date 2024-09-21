@@ -1,12 +1,16 @@
 # MockServer
 
+This repository showcases use of [↑ MockServer](https://www.mock-server.com). 
+
+[↑ JSON examples](https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json_examples.md).
+
+## Running
+
 Run infrastructure:
 
 ```bash
 make run-infrastructure
 ```
-
-## Links
 
 MockServer UI : <http://localhost:2020/mockserver/dashboard>.
 
@@ -21,4 +25,3 @@ curl --location 'http://localhost:2020/api/users/get' \
 }'
 ```
 
-[↑ JSON examples](https://github.com/mock-server/mockserver/blob/master/mockserver-examples/json_examples.md).
